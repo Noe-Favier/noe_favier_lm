@@ -21,3 +21,7 @@ run,
 ```bash
 docker-compose exec latex latexmk -pdf -interaction=nonstopmode -synctex=1 -outdir=build ./example/main.tex
 ```
+
+## render
+
+[the pdf here](./example.pdf) is an example of render.
