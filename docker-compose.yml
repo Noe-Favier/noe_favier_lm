@@ -1,0 +1,8 @@
+services:
+  latex:
+    image: texlive/texlive
+    volumes:
+      - .:/data
+    working_dir: /data
+    command: [ "tail", "-f", "/dev/null" ] #infinite loop to keep the container running
+    container_name: lm_latex_compiler
